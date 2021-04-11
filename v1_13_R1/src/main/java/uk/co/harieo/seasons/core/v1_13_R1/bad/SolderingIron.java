@@ -33,7 +33,7 @@ public class SolderingIron extends Effect implements TickableEffect {
 	private Map<Player, Integer> secondsPast = new HashMap<>();
 
 	public SolderingIron() {
-		super("Soldering Iron", "Take damage if you hold a primarily iron item",
+		super("Aşırı Sıcak", "Elinde demir bir eşya tutarsan hasar alırsın",
 				Collections.singletonList(Weather.SCORCHING), false);
 	}
 
