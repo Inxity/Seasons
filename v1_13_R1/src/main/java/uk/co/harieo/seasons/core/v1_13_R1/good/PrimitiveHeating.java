@@ -24,7 +24,7 @@ public class PrimitiveHeating extends SeasonsPotionEffect {
 			Material.DRAGON_BREATH, Material.MAGMA_CREAM};
 
 	public PrimitiveHeating() {
-		super("Primitive Heating", "Receive Resistance 1 when your inventory contains a very hot item",
+		super("İlkel Isınma", "Envanterinde sıcak bir eşya barındırıyorken (lav, blaze çubuğu, blaze tozu) Dayanıklılık 1 kazanırsın",
 				Collections.singletonList(Weather.COLD), true,
 				new PotionEffect(PotionEffectType.DAMAGE_RESISTANCE, Integer.MAX_VALUE, 0));
 	}
