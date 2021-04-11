@@ -13,7 +13,7 @@ import uk.co.harieo.seasons.plugin.models.effect.Effect;
 public class Devastation extends Effect {
 
 	public Devastation() {
-		super("Devastation", "You may not regenerate health naturally, don't take damage!",
+		super("Yıkım", "Canını doğal yollarla yenileyemezsin, canını yakmamaya çalış!",
 				Collections.singletonList(Weather.STORMY), false);
 	}
 
