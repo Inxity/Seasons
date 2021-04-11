@@ -18,7 +18,7 @@ import uk.co.harieo.seasons.plugin.models.effect.SeasonsPotionEffect;
 public class Revitalized extends SeasonsPotionEffect {
 
 	public Revitalized() {
-		super("Revitalized", "Receive Regeneration 1 until the day ends",
+		super("Yenilenme", "Günün sonuna kadar Yenilenme 1 kazanırsın",
 				Collections.singletonList(Weather.BEAUTIFUL), true,
 				new PotionEffect(PotionEffectType.REGENERATION, Integer.MAX_VALUE, 0));
 		Bukkit.broadcastMessage(Weather.BEAUTIFUL.getName());
