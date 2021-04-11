@@ -19,7 +19,7 @@ import uk.co.harieo.seasons.plugin.models.effect.Effect;
 public class Icy extends Effect {
 
 	public Icy() {
-		super("Icy", "Any water you place down will turn to ice",
+		super("Buzlu", "Koyduğun herhangi bir su anında donarak buza dönüşecek",
 				Collections.singletonList(Weather.FREEZING), false);
 	}
 
