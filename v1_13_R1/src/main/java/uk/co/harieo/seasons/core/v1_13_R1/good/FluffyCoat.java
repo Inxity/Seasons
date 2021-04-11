@@ -17,7 +17,7 @@ import uk.co.harieo.seasons.plugin.models.effect.SeasonsPotionEffect;
 public class FluffyCoat extends SeasonsPotionEffect {
 
 	public FluffyCoat() {
-		super("Fluffy Coat", "Receive Resistance 1 when wearing full armour",
+		super("Kabarık Mont", "Üstünde bütün zırhların varken Dayanıklılık 1 kazanırsın",
 				Collections.singletonList(Weather.SNOWY), true,
 				new PotionEffect(PotionEffectType.DAMAGE_RESISTANCE, Integer.MAX_VALUE, 0));
 	}
