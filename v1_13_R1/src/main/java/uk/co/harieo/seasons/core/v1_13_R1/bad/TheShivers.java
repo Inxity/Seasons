@@ -24,7 +24,7 @@ public class TheShivers extends Effect implements TickableEffect {
 	private Map<Player, Integer> secondsPast = new HashMap<>();
 
 	public TheShivers() {
-		super("The Shivers", "Take damage when moving in water and be warned, this effect will last until death",
+		super("Titreme Hissi", "Suya girdiğin zaman uyarılırsın ve ölene kadar canın yanar",
 				Collections.singletonList(Weather.CHILLY), false);
 	}
 
