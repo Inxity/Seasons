@@ -18,7 +18,7 @@ public class WindInYourBoots extends Effect implements TickableEffect {
 	private int secondsPast = 0;
 
 	public WindInYourBoots() {
-		super("Wind in Your Boots", "Random chance to gain Speed 1 for 20 seconds every 2 minutes",
+		super("Botlarındaki Rüzgar", "Her 2 dakikada rastgele bir şansla 20 saniyeliğine Hız 1 kazanırsın",
 				Collections.singletonList(Weather.BREEZY), true);
 		setIgnoreRoof(false);
 	}
