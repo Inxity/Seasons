@@ -16,7 +16,7 @@ import uk.co.harieo.seasons.plugin.models.effect.SeasonsPotionEffect;
 public class FeelsGood extends SeasonsPotionEffect {
 
 	public FeelsGood() {
-		super("Feels Good", "Receive Speed 2 when not wearing armour",
+		super("Özgürlük!", "Zırh giymiyorken Hız 2 kazanırsın",
 				Collections.singletonList(Weather.WARM), true,
 				new PotionEffect(PotionEffectType.SPEED, Integer.MAX_VALUE, 1));
 	}
