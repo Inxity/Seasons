@@ -15,7 +15,7 @@ import uk.co.harieo.seasons.plugin.models.effect.TickableEffect;
 public class Frostbite extends Effect implements TickableEffect {
 
 	public Frostbite() {
-		super("Frostbite", "Harms you if you do not have full armour on after 10 seconds down to half a heart",
+		super("Donma", "Eğer bütün zırhlarını kuşanmamışsan 10 saniyede bir kere hasar alırsın",
 				Arrays.asList(Weather.FREEZING, Weather.SNOWY), false);
 		setIgnoreRoof(false);
 	}
